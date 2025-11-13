@@ -1,0 +1,18 @@
+# This .gitignore prevents committing local developer tool settings.
+# Ignore everything
+*
+
+# But not these files...
+# !/.gitignore - also .gitignore is ignored, so only *.go and README.md goes upstream
+!*.md
+!.gitignnore
+!LICENSE
+!*.html
+!*.css
+!*.js
+!*.yaml
+!_config.yml
+!robots.txt
+
+# ...even if they are in subdirectories
+!*/

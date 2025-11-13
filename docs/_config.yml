@@ -1,0 +1,6 @@
+title: AI First
+description: A living guide to building AI-first websites — HTML for the AI era.
+theme: minima
+markdown: kramdown
+kramdown:
+  input: GFM
