@@ -144,3 +144,7 @@ You can describe important visuals using ImageObject in JSON-LD.
  - [ ] File names describe content.
  - [ ] Important visuals defined as ImageObject in JSON-LD.
  - [ ] Text version or summary exists for data visuals.
+
+---
+
+**Next:** see [Forms & interaction](./forms-interaction.md) to make your inputs and UI elements understandable to AI assistants.

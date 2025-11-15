@@ -161,3 +161,7 @@ For AI, hidden dynamic content = invisible meaning.
  - [ ] Validation includes readable text feedback.
  - [ ] No critical content loaded only via JS.
  - [ ] Optional: form purpose defined in JSON-LD.
+
+---
+
+**Next:** see [robots.txt & AI ethics](./robots-ai-ethics.md) to guide AI crawlers responsibly and define reuse policies.

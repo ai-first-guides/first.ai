@@ -121,3 +121,7 @@ By structuring your pages for both human and AI understanding, you help define t
 
 > The future of GDPR compliance isn’t about blocking access —
 it’s about teaching machines how to read responsibly.
+
+---
+
+**Next:** return to [AI-first principles](./principles.md) or explore other sections in the [documentation index](./index.md).

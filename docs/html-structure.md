@@ -374,3 +374,6 @@ Think of each input field as a small, machine-readable contract: it tells AI wha
 </body>
 </html>
 ```
+---
+
+**Next:** see [Meaningful content](./meaningful-content.md) to understand how to write text that AI can interpret and cite correctly.

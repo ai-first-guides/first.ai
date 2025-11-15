@@ -171,3 +171,6 @@ Audio and video need text alternatives — AI often cannot parse sound, but it c
  - [ ] Captions or transcripts for media.
  - [ ] Validated with screen reader and AI crawler.
 
+---
+
+**Next:** see [Images & captions](./images-captions.md) to learn how to describe visual information for AI and accessibility tools.

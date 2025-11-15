@@ -217,3 +217,7 @@ For example, you can return:
  - [ ] Sensitive paths excluded.
  - [ ] License or attribution policy stated.
  - [ ] Ethics of reuse and privacy considered.
+
+---
+
+**Next:** see [GDPR & future regulation](./gdpr-future.md) to prepare for data protection, attribution, and AI-related compliance.

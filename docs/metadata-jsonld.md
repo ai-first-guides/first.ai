@@ -135,3 +135,7 @@ Before publishing, always validate your JSON-LD:
 [JSON-LD Playground](https://json-ld.org/playground/)
 
 Errors in syntax, context, or type hierarchy can make your metadata invisible to AI parsers.
+
+---
+
+**Next:** see [Language & accessibility](./language-accessibility.md) to ensure your content is readable and correctly cited across languages.

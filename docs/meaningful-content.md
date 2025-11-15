@@ -95,3 +95,8 @@ If AI has to see it to understand it, it’s already lost.
  - [ ] Use concrete terms, not slogans.
  - [ ] Include contextual anchors (id, <time>, <abbr>).
  - [ ] Keep terminology consistent across the site.
+
+---
+
+**Next:** see [Metadata (JSON-LD)](./metadata-jsonld.md) to describe your content with structured data AI can rely on.
+

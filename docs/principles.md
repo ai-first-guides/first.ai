@@ -69,6 +69,4 @@ If those questions can be answered directly from your markup, your site is AI-re
 
 ---
 
-## 🔗 Next
-
-Continue to [**HTML structure for AI**](html-structure.md) → learn how to build clean, semantic markup for AI interpretation.
+**Next:** see [HTML structure for AI](./html-structure.md) to learn how to express meaning through semantics instead of visual layout.
