@@ -10,7 +10,7 @@ It’s a shift from visual presentation to **semantic clarity**, **structured me
 Just as accessibility made the web inclusive for people, AI-first design makes it understandable for artificial intelligence.
 
 
----
+----
 
 ## Why It Matters
 

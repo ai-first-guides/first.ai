@@ -5,29 +5,33 @@ A living guide to building AI-first websites — HTML for the AI era.
 ---
 
 ## Vision
-AI First provides practical rules and examples for building AI-readable websites.
-It focuses on metadata, semantics, and minimalism to make HTML more transparent to AI models.
-Through open discussion and shared patterns, the project bridges the gap between traditional SEO and the coming AI-based web discovery.
+AI-first web design is based on a simple observation: **more and more queries go directly to AI assistants** instead of traditional search engines.
+If you want AI systems to understand, trust, and cite your content, the web must be written for them — not only for the visual browser.
+Just like SEO once made websites visible to Google, **AI-first structure increases the chance that your website becomes the source AI systems quote**.
+As browsing shifts from humans to assistants, AI-SEO — semantic, structured, machine-legible content — becomes essential.
 
-### Why It Matters
-
-The number of queries made to AI systems such as ChatGPT is growing rapidly — at the expense of traditional web search.
-Visual design and marketing slogans are becoming less relevant.
-What truly matters now is content that AI can understand, structure, and cite as a trusted source.
-AI First helps creators focus on building websites that communicate meaning, not decoration.
+AI First provides practical rules for building content that AI can reliably interpret:
+ - AI-readable structure (clear HTML hierarchy, minimal JavaScript)
+ - Metadata and JSON-LD that models can actually consume
+ - Meaningful, factual content instead of decorative fluff
+ - Design that works for both humans and AI
 
 ---
 
 ## Index
 
-- **AI-first principles** – what it means and why it matters
-- **HTML structure for AI** – clear hierarchy, minimal JavaScript
-- **Metadata (JSON-LD)** – practical patterns for articles, products, and people
-- **Language & accessibility** – multilingual and ARIA-friendly design
-- **Images & captions** – writing meaningful `alt` and `figcaption` text
-- **Forms & interaction** – making inputs understandable for AI
-- **robots.txt & AI ethics** – granting access to AI crawlers responsibly
-- **GDPR & future regulation** – staying compliant as AI integration grows
+| Section                                               | Description |
+|-------------------------------------------------------|-------------|
+| [AI-first principles](./docs/principles.md)           | What it means and why it matters |
+| [HTML structure for AI](./docs/html-structure.md)            | Clear hierarchy, minimal JS |
+| [Meaningful content](./docs/meaningful-content.md)           | Writing clear, factual, and citable text |
+| [Metadata (JSON-LD)](./docs/metadata-jsonld.md)              | Practical patterns for articles, products, people |
+| [Language & accessibility](./docs/language-accessibility.md) | Multilingual and ARIA-friendly markup |
+| [Images & captions](./docs/images-captions.md)               | Writing meaningful `alt` and `figcaption` |
+| [Forms & interaction](./docs/forms-interaction.md)           | How to make inputs understandable for AI |
+| [robots.txt & AI ethics](./docs/robots-ai-ethics.md)         | Granting access to AI crawlers responsibly |
+| [GDPR & future regulation](./docs/gdpr-future.md)            | Privacy and compliance in AI-era web |
+
 
 📘 All sections live in the [**/docs** folder](docs/index.md).
 
