@@ -1,4 +1,8 @@
-# AI First Documentation
+---
+title: AI-First Web
+---
+
+# AI-First Web — HTML for the AI era
 
 Welcome to **first.ai** — an open, living guide for building websites that are readable and understandable by AI systems.
 

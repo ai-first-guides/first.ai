@@ -40,6 +40,7 @@ If AI or users can’t see it, don’t describe it as if it exists.
  > Think of JSON-LD as the “structured mirror” of your HTML — the factual summary AI reads first.
 
 ## 3) Common schema types
+
 | Type           | Purpose                                  | Example use                 |
 | -------------- | ---------------------------------------- | --------------------------- |
 | `Article`      | Blog post, documentation page, news item | `/docs/html-structure.md`   |
@@ -69,6 +70,7 @@ If AI or users can’t see it, don’t describe it as if it exists.
 ```
 
 ## 4) Multilingual metadata
+
 When your page has content in multiple languages, describe language variants explicitly:
 ```html
 <script type="application/ld+json">
@@ -108,6 +110,7 @@ This helps AI assistants choose which version to quote or present to the user.
 - Link each language variant using `<link rel="alternate" hreflang="...">` in your HTML `<head>` — this helps both AI and search engines connect the versions.
 
 ## 5) Connect JSON-LD with HTML IDs
+
 If your page contains definitions, quotes, or data with `id` anchors, you can reference them directly in JSON-LD.
 
 ```html
@@ -128,6 +131,7 @@ If your page contains definitions, quotes, or data with `id` anchors, you can re
 That link (`@id`) helps AI models map textual and structured meaning together.
 
 ## 6) Validation and testing
+
 Before publishing, always validate your JSON-LD:
 
 [Google Rich Results Test](https://search.google.com/test/rich-results)

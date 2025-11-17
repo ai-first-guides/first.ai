@@ -2,6 +2,7 @@
 AI (and screen readers) rely on clear hierarchy, landmarks, and stable anchors.
 
 ## 1) Page skeleton (the meaningful minimum)
+
 ```html
 <!doctype html>
 <html lang="en">
@@ -78,9 +79,9 @@ AI (and screen readers) rely on clear hierarchy, landmarks, and stable anchors.
  - Every section has a meaningful heading (optionally `aria-labelledby`).
  - Use stable anchors (`id`) for citations and deep links.
  - Expose critical content in the initial HTML or JSON-LD instead of fetching it via JavaScript.
----
 
 ## 2) Headings & hierarchy
+
 ```html
 <main>
   <article>
@@ -116,7 +117,6 @@ AI (and screen readers) rely on clear hierarchy, landmarks, and stable anchors.
  - Don’t skip levels (`h2` → `h4` without `h3`). Skipping heading levels breaks the logical outline of the page.
    AI models like ChatGPT, Gemini, or Copilot build internal hierarchies from headings — if the structure is inconsistent, they may merge unrelated sections, skip content in summaries, or mislabel parts of the page.
    Screen readers also lose proper navigation, making it unclear where the user is in the document.
----
 
 ## 3) Navigation, breadcrumbs, sitemap
 
@@ -133,7 +133,6 @@ AI (and screen readers) rely on clear hierarchy, landmarks, and stable anchors.
 - Breadcrumbs give context and hierarchy to AI.
 - Maintain a `sitemap.xml` with important pages (don’t rely solely on auto-generation). A sitemap.xml file gives AI and crawlers a complete overview of your website’s structure.
   It lists all important pages, helping AI discover relationships, priorities, and update frequency — even without browsing your entire site.
----
 
 ## 4) Links & anchors (citeability > clickability)
 
@@ -158,8 +157,9 @@ Anchor text should describe the target, not use generic phrases like “click he
 ```
 💡 Tip:
 Descriptive links make your content easier to quote, summarize, and navigate — for both AI and accessibility tools.
----
+
 ## 5) Tables, lists, code
+
 ```html
 <table>
   <caption>Minimum fields for Product</caption>
@@ -184,7 +184,9 @@ Without a caption, AI may not understand what the data describes (e.g., product 
 - `th` headers define column meaning and help AI correctly associate values in each row.
 - Avoid using tables for layout or decoration — they pollute the document’s semantic outline.
 - Wrap code in `<pre><code>` with an optional language class.
+
 ## 6) Images & captions (see the dedicated section for more)
+
 ```html
 <figure id="wireframe-hero">
     <img src="/img/wireframe-hero.png"
@@ -202,8 +204,9 @@ AI models can’t always “see” or interpret the image itself, so the caption
 
 💡 Tip:
 Together, `alt` and `figcaption` transform an image from a visual element into structured, interpretable information — something both AI and assistive technologies can reference or summarize just like text.
----
+
 ## 7) Pagination & related content
+
 ```html
 <nav aria-label="Pagination">
   <ul>
@@ -235,7 +238,7 @@ By connecting the section to the visible heading (`<h2 id="related">Related</h2>
 
 💡 Tip:
 Explicit structure like this improves how AI models build internal maps of your site — understanding which pages are connected and how users (or assistants) can navigate between them.
----
+
 ## 8) Progressive enhancement (JS is optional, not required)
 
 ```html
@@ -253,8 +256,9 @@ Explicit structure like this improves how AI models build internal maps of your 
 - The page must work without JS.
 - JS = enhancement (copy-to-clipboard, filters…), not the source of content.
 - Avoid CSR-only SPA pages where HTML is empty until JS runs.
----
+
 # 9) Form input types and metadata
+
 Form fields carry built-in metadata that describes what kind of information they expect.
 Browsers use it for validation, autofill, and keyboard optimization — and AI assistants can use the same metadata to understand form intent or generate structured data.
 ```html
@@ -271,6 +275,7 @@ Browsers use it for validation, autofill, and keyboard optimization — and AI a
   <button type="submit">Send</button>
 </form>
 ```
+
 **Key points:**
 - type attribute acts as semantic metadata (`email`, `url`, `number`, `tel`, `date`, `search`, etc.).
 It tells browsers and AI what kind of data belongs in the field.
@@ -285,8 +290,9 @@ It tells browsers and AI what kind of data belongs in the field.
 ```
 💡 Tip:
 Think of each input field as a small, machine-readable contract: it tells AI what kind of value is expected and how it will be used.
----
+
 ## 10) Anti-patterns (avoid these)
+
 - “Div soup” with no semantics (`<div class="h1">` instead of a real `<h1>`).
 - Important text embedded as an image.
 - **Infinite scroll** without page links.
@@ -294,7 +300,9 @@ Think of each input field as a small, machine-readable contract: it tells AI wha
 - Obfuscated text (canvas, SVG without `title/desc`).
 - Heavy JS/CSS bundles that block HTML from loading.
 ---
+
 ## 11) Quick checklist
+
 - [ ] One meaningful `<h1>`; consistent `h2–h4`.
 - [ ] Use `header/nav/main/article/section/aside/footer` appropriately.
 - [ ] Stable `id` for definitions and key sections.
@@ -303,8 +311,9 @@ Think of each input field as a small, machine-readable contract: it tells AI wha
 - [ ] `canonical` + `hreflang` (if multilingual).
 - [ ] Page makes sense without JS and CSS.
 - [ ] JSON-LD present in `<head>` (see metadata section).
----
+
 ## 12) Starter template (copy–paste)
+
 ```html
 <!doctype html>
 <html lang="en">
