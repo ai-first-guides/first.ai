@@ -34,10 +34,13 @@ Everything in the JSON-LD must reflect real content visible on the page.
 If AI or users can’t see it, don’t describe it as if it exists.
 
 ## 2) Why it matters
+
  - AI assistants and search engines use JSON-LD to extract facts, authors, topics, and relationships.
  - Proper metadata increases the chance your page will be cited as a trusted source.
  - JSON-LD allows for multilingual references, canonical versions, and verifiable timestamps.
- > Think of JSON-LD as the “structured mirror” of your HTML — the factual summary AI reads first.
+
+> Think of JSON-LD as the “structured mirror” of your HTML — the factual summary AI reads first.
+
 
 ## 3) Common schema types
 

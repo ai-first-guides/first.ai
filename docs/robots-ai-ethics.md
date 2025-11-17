@@ -25,9 +25,7 @@ Sitemap: https://example.com/sitemap.xml
 **AI relevance:**
 AI crawlers (like OpenAI’s `GPTBot`, Anthropic’s `ClaudeBot`, or Google’s `Gemini`) check your `robots.txt` before reading or summarizing content.
 
----
-
-# 2) Example with AI-specific bots
+## 2) Example with AI-specific bots
 
 You can define policies for individual AI agents:
 ```txt
@@ -49,9 +47,9 @@ This setup:
  - Keeps everything else open for indexing.
 
 > The file is advisory — ethical AI crawlers respect it, but not all agents do.
----
 
 ## 3) Declaring AI access in HTML
+
 While `robots.txt` controls crawler access at the domain level,
 you can also declare access preferences per individual page using `<meta>` tags in the `<head>` section.
 This helps AI systems understand whether a given page is meant to be indexed, summarized, or excluded.
@@ -103,6 +101,7 @@ Disallow: /private/
 This makes your stance clear at both the crawler and page level — encouraging responsible AI citation while protecting against uncontrolled data reuse.
 
 ## 4) Ethical considerations
+
 AI crawling introduces questions beyond traditional SEO:
 
 | Concern             | Description                                                         |
@@ -113,7 +112,6 @@ AI crawling introduces questions beyond traditional SEO:
 | **Data protection** | Does your site contain personal or sensitive data?                  |
 
 > Transparency is key: clear access rules protect your rights while keeping information flow open.
----
 
 ## 5) Balancing openness and control
 
@@ -144,6 +142,7 @@ And add a visible statement (e.g. in your footer or license):
 This supports AI transparency while protecting authorship integrity.
 
 ## 7) Combining `robots.txt` with licensing
+
 To make your intentions legally clear, pair `robots.txt` rules with an open license such as:
 
 ```txt
@@ -201,6 +200,7 @@ To reinforce this policy for human and AI readers alike:
 
 
 ## 8) Advanced: HTTP headers for AI crawlers
+
 Some AI bots support header-based permissions.
 For example, you can return:
 ```txt

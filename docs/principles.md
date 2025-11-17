@@ -10,8 +10,6 @@ It’s a shift from visual presentation to **semantic clarity**, **structured me
 Just as accessibility made the web inclusive for people, AI-first design makes it understandable for artificial intelligence.
 
 
-----
-
 ## Why It Matters
 
 The web is no longer consumed only by humans.  
@@ -23,8 +21,6 @@ However, most of today’s web is:
 - and poor in structure or context.
 
 AI-first design aims to reverse this trend — making the web readable again.
-
----
 
 ## Core Principles
 
@@ -52,8 +48,6 @@ Keep the DOM simple. Every extra layer is another barrier for crawlers and AI pa
 Allow AI crawlers to read your site responsibly (`robots.txt`).  
 Respect attribution, privacy, and licensing.  
 The AI-first web should be open, but fair.
-
----
 
 ## Practical Outcome
 

@@ -3,8 +3,6 @@
 AI assistants and accessibility tools cannot **see** your images — they rely entirely on the surrounding text, `alt`, and `figcaption` descriptions.  
 Well-written image metadata makes your visuals both understandable to AI and accessible to humans.
 
----
-
 ## 1) Why image text matters
 
 Even advanced multimodal AI models don’t “see” in the human sense.  
@@ -15,8 +13,6 @@ Good image descriptions allow AI to:
 - Use them as **citable illustrations** in responses.
 - Understand visual meaning (not just appearance).
 - Provide accessibility for screen reader users.
-
----
 
 ## 2) The `alt` attribute
 
@@ -32,8 +28,8 @@ Good image descriptions allow AI to:
  - Use `alt=""` only for purely decorative images (e.g., background flourishes, icons).
  - Avoid generic terms like “image of…” or “photo showing…”.
 
-> Ask yourself: If the image were removed, what information would the user (or AI) lose?
-That’s what goes in the alt.
+> "Ask yourself: If the image were removed, what information would the user (or AI) lose?
+That’s what goes in the alt."
 
 ## 3) The `<figure>` and `<figcaption>` pair
 Use `<figure>` and `<figcaption>` to group the image with its explanation.
@@ -52,7 +48,6 @@ This helps AI models connect visual content with its purpose.
 **Why this matters:**
 AI often cannot parse what is literally shown in the image.
 The figcaption acts as contextual text that tells the model what the image represents and how it connects to the surrounding topic.
----
 
 ## 4) Decorative vs. informative images
 
@@ -73,7 +68,6 @@ The figcaption acts as contextual text that tells the model what the image repre
   </figcaption>
 </figure>
 ```
----
 
 ## 5) Screenshots and UI elements
 For screenshots, focus on what the user learns, not what they literally see.
@@ -85,7 +79,6 @@ For screenshots, focus on what the user learns, not what they literally see.
 `alt="Form showing labeled input fields with autocomplete for email and name"`
 
 > AI uses this to infer examples of good UX or form semantics.
----
 
 ## 6) Multiple related images
 When a page includes several related visuals (e.g., product gallery, comparison), group them semantically:
@@ -100,8 +93,6 @@ When a page includes several related visuals (e.g., product gallery, comparison)
 ```
 This lets AI know these images belong to one concept.
 
----
-
 ## 7) File naming and id anchors
 Descriptive filenames and stable IDs help AI index your images.
 Descriptive filenames and stable IDs help AI index your images.
@@ -111,8 +102,6 @@ Descriptive filenames and stable IDs help AI index your images.
 ❌ Avoid: `/img/img001.png`
 
 > Meaningful filenames and IDs (id="ai-wireframe") act as anchors for AI to reference when generating summaries or linking to media.
-
----
 
 ## 8) Adding image metadata (JSON-LD)
 
@@ -133,8 +122,8 @@ You can describe important visuals using ImageObject in JSON-LD.
 }
 </script>
 ```
+
 > For infographics, you can use both ImageObject and Dataset to describe embedded data.
----
 
 ## 9) Quick checklist
 

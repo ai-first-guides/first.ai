@@ -299,7 +299,6 @@ Think of each input field as a small, machine-readable contract: it tells AI wha
 - Gating core content behind modals/cookie walls without fallback.
 - Obfuscated text (canvas, SVG without `title/desc`).
 - Heavy JS/CSS bundles that block HTML from loading.
----
 
 ## 11) Quick checklist
 

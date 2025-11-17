@@ -24,7 +24,6 @@ If your content includes other languages inside, mark them with inline `lang` at
  - Screen readers choose correct pronunciation and reading rules.
  - Multilingual assistants can serve the right translation or voice.
 
----
 ## 2) Use hreflang for alternate language versions
 
 Each translated page should reference all its siblings in the <head> section:
@@ -127,18 +126,20 @@ They help both AI and assistive technologies understand layout and navigation.
 ```
 
 # 6) Labels and descriptions
+
 Interactive elements (forms, buttons, inputs) must always have visible and programmatic labels.
 ```html
 <label for="email">Email address</label>
 <input id="email" name="email" type="email" autocomplete="email" placeholder="you@example.com">
 ```
 
-## Best practices
+### Best practices
  - Match <label for> and id.
  - Avoid placeholder-only labels.
  - Use aria-describedby for help text.
 
 ## 7) Contrast and clarity
+
 AI-powered visual summarizers and accessibility tools rely on visual clarity and color contrast.
  - Text vs. background: 4.5:1 (WCAG AA)
  - Large text (≥18px or bold ≥14px): 3:1
@@ -149,6 +150,7 @@ AI-powered visual summarizers and accessibility tools rely on visual clarity and
 > If your content becomes unreadable when CSS or JS is disabled, AI likely can’t interpret it either.
 
 ## 8) Captions and transcripts for media
+
 Audio and video need text alternatives — AI often cannot parse sound, but it can process transcripts.
 ```html
 <figure>

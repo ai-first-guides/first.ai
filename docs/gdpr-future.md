@@ -3,8 +3,6 @@
 AI-first design is not just about technical clarity — it’s also about **data ethics and legal transparency**.  
 As AI assistants interact with public content, developers must ensure that **personal data, consent, and attribution** remain protected and compliant with GDPR and emerging AI regulations.
 
----
-
 ## 1) Why GDPR still matters in the AI era
 
 The [General Data Protection Regulation (GDPR)](https://gdpr.eu/) applies whenever your website processes **personal data** — directly or indirectly.  
@@ -16,9 +14,7 @@ Even if AI systems (like ChatGPT, Gemini, or Copilot) read your pages, your resp
 - Provide opt-in consent for tracking or personalization cookies.
 - Avoid embedding third-party scripts that leak identifiers.
 
-> In short: even if AI reads your site, the same human privacy principles apply.
-
----
+> "In short: even if AI reads your site, the same human privacy principles apply."
 
 ## 2) AI crawlers and personal data
 
@@ -45,7 +41,7 @@ Example — author info in JSON-LD:
 }
 </script>
 ```
----
+
 ## 3) The coming AI Act and data provenance
 
 The EU AI Act (expected enforcement 2026-2027) introduces new rules for transparency and training data.
@@ -62,7 +58,7 @@ Example of explicit reuse notice:
 ```html
 <meta name="ai-policy" content="cite-source, no-train">
 ```
-> Future AI regulations will likely treat clear metadata as a form of “digital consent”.
+> "Future AI regulations will likely treat clear metadata as a form of “digital consent”."
 
 ---
 
@@ -77,9 +73,9 @@ Instead of heavy JavaScript frameworks, use a minimal, accessible consent flow:
 ```
 - Keep the message text-based and visible even without JS. 
 - Make sure the page remains readable to crawlers before consent.
----
 
 ## 5) Open data and ethical sharing
+
  - AI-first design encourages openness with accountability:
  - Use open licenses (MIT, CC-BY, CC-BY-SA).
  - Attribute all external data sources.
@@ -102,9 +98,9 @@ Example JSON-LD notice:
 }
 </script>
 ```
----
 
 ## 6) Practical checklist
+
  - [ ] No personal data published unintentionally.
  - [ ] Clear consent for cookies and analytics.
  - [ ] `robots.txt` restricts sensitive paths.
@@ -113,14 +109,14 @@ Example JSON-LD notice:
  - [ ] JSON-LD includes author and provenance data.
  - [ ] Open, readable, non-obstructive consent UI.
 
----
 
 ## 7) Preparing for the next decade
+
 AI-first websites will become part of a transparent knowledge ecosystem.
 By structuring your pages for both human and AI understanding, you help define the next ethical web standard:
 
-> The future of GDPR compliance isn’t about blocking access —
-it’s about teaching machines how to read responsibly.
+> "The future of GDPR compliance isn’t about blocking access —
+it’s about teaching machines how to read responsibly."
 
 ---
 

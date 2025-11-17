@@ -18,9 +18,8 @@ Each field must communicate its purpose through explicit HTML attributes.
  - AI can identify the type of information requested (email, name, search...).
  - Browsers can autofill correctly.
  - Screen readers announce the purpose of each field.
->Always match `<label for>` with the input’s `id`.
 
----
+> "Always match `<label for>` with the input’s `id`."
 
 ## 2) Use semantic input types
 Modern browsers and AI models recognize type attributes to infer meaning.
@@ -39,8 +38,8 @@ Never use `type="text"` for fields that have a more specific role.
 **Benefit:**
 AI assistants can prefill or simulate form submissions correctly (for example, suggesting values or understanding what a form is for).
 
----
 ## 3) Add autocomplete hints
+
 `autocomplete` provides additional semantics for AI and browsers.
 
 ```html
@@ -57,7 +56,6 @@ AI assistants can prefill or simulate form submissions correctly (for example, s
 ```
 AI interprets `autocomplete` attributes as structured intent — for instance, that the form is about user identity rather than random text fields.
 
----
 
 ## 4) Use buttons with explicit intent
 Use real `<button>` elements instead of clickable `<div>` or `<a>` elements for actions.
@@ -70,9 +68,9 @@ Add clear text or `aria-label` to describe what the action does.
 ```
 
 > AI models and assistive tools both need textual cues to understand interactive intent.
----
 
 ## 5) Handling dynamic interaction
+
 If a form updates dynamically (via JavaScript), make sure AI and assistive tools can detect changes.
 
 Use `aria-live` regions to announce updates:
@@ -95,8 +93,6 @@ function submitForm(e) {
 AI and screen readers can only interpret what’s reflected in the DOM.
 If updates happen invisibly (e.g., with CSS-only popups), they remain unreadable.
 
----
-
 ## 6) Form context in JSON-LD
 To help AI understand the form’s purpose, you can describe it in metadata.
 
@@ -116,7 +112,6 @@ To help AI understand the form’s purpose, you can describe it in metadata.
 </script>
 ```
 > This clarifies that the form is for communication, not authentication or payment — helpful when AI summarizes your site’s functions.
----
 
 ## 7) Accessibility for interaction
 
@@ -133,6 +128,7 @@ button:focus {
 ```
 
 ## 8) Validation and feedback
+
 Avoid purely visual validation cues like red borders or icons.
 Include text messages that describe the issue.
 ```html
@@ -142,15 +138,11 @@ Include text messages that describe the issue.
 ```
 AI reads these messages to understand how forms handle errors and user guidance.
 
----
-
 ## 9) Don’t hide key meaning in JavaScript
 If the form relies on an AJAX request to load essential fields or messages, AI crawlers might never see them.
 Instead, include essential structure and labels in the HTML itself — then enhance progressively with JS.
 
 For AI, hidden dynamic content = invisible meaning.
-
----
 
 ## 10) Quick checklist
  - [ ] Each input has a `<label>` or `aria-label`.

@@ -9,9 +9,10 @@ The web is shifting from being read by humans to being interpreted by AI.
 When users ask assistants like ChatGPT or Gemini, they rarely “visit” your page — the assistant reads, summarizes, and sometimes quotes it.
 If your content is vague, promotional, or hidden behind visuals, it simply disappears from that discovery layer.
 
-> AI can only cite what it can understand — and it can only understand what is explicit in your text.
+> "AI can only cite what it can understand — and it can only understand what is explicit in your text."
 
 ## 2) Write for meaning, not marketing
+
 Avoid empty adjectives and slogans that add no real information.
 AI cannot infer facts from emotional tone — it needs explicit statements.
 
@@ -28,6 +29,7 @@ That’s what makes your content _citable_ — and what AI can turn into structu
 
 
 ## 3) Make entities explicit
+
 AI learns through entities — names of people, products, places, organizations, and concepts.
 Help it connect the dots by naming things clearly.
 
@@ -55,6 +57,7 @@ AI models focus on semantic context — they care about how concepts relate, not
 > “Best solar energy renewable clean power eco-friendly energy renewable solar wind.”
 
 ## 6) Structure supports meaning
+
 Use clear sections, headings, and short paragraphs.
 Each section should represent one complete thought — so AI can quote or summarize it independently.
 ```html
@@ -89,6 +92,7 @@ If a chart or image contains essential data, repeat the same information in text
 If AI has to see it to understand it, it’s already lost.
 
 ## 10) Quick checklist
+
  - [ ] Each section communicates one complete idea.
  - [ ] Facts and entities are explicit (names, dates, places).
  - [ ] No core information hidden in visuals or JS.

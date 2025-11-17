@@ -19,8 +19,7 @@ we now need to design content that AI systems can understand, index, and cite.
 AI-first web design focuses on semantic clarity, structured data, and factual precision —
 so that your website isn’t just visible in a browser, but also readable and quotable by AI assistants
 
->In the AI era, visibility comes not from being seen — but from being understood.
----
+> "In the AI era, visibility comes not from being seen — but from being understood."
 
 ## Sections
 
@@ -69,7 +68,7 @@ This guide evolves continuously. Contributions are welcome!
 2. Propose an improvement via a Pull Request or open a Discussion.
 3. Follow the principles of clarity, openness, and minimalism.
 
-> *Every example, pattern, or real-world test helps define the future AI-readable web.*
+> *"Every example, pattern, or real-world test helps define the future AI-readable web."*
 
 ---
 
