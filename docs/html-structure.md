@@ -257,7 +257,7 @@ Explicit structure like this improves how AI models build internal maps of your 
 - JS = enhancement (copy-to-clipboard, filters…), not the source of content.
 - Avoid CSR-only SPA pages where HTML is empty until JS runs.
 
-# 9) Form input types and metadata
+## 9) Form input types and metadata
 
 Form fields carry built-in metadata that describes what kind of information they expect.
 Browsers use it for validation, autofill, and keyboard optimization — and AI assistants can use the same metadata to understand form intent or generate structured data.

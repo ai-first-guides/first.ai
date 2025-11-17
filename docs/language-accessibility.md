@@ -125,7 +125,7 @@ They help both AI and assistive technologies understand layout and navigation.
 </nav>
 ```
 
-# 6) Labels and descriptions
+## 6) Labels and descriptions
 
 Interactive elements (forms, buttons, inputs) must always have visible and programmatic labels.
 ```html
